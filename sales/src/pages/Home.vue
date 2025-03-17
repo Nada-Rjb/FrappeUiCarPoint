@@ -1,7 +1,7 @@
 <template>
   <div class="max-w-3xl py-12 mx-auto">
     <h2 class="font-bold text-lg text-gray-600 mb-4">
-      Welcome {{ session.user }}!
+      Welcomedfcfff {{ session.user }}!
     </h2>
 
     <Button theme="gray" variant="solid" icon-left="code" @click="ping.fetch" :loading="ping.loading">
