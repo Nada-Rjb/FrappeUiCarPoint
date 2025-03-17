@@ -1,14 +1,21 @@
 <template>
-    <section class="flow section" data-padding="compact">
-      <div class="wrapper" id="main">
-        <div class="invoice-actions">
-          <button class="show-invoices">📄 عرض الفواتير</button>
-          <button class="upload-invoice">⬆️ رفع الفاتورة</button>
-        </div>
+  <section class="flow section" data-padding="compact">
+    <div class="wrapper" id="main">
+      <div class="invoice-actions">
+        <Button class="show-invoices">📄 عرض الفواتير</Button>
+        <Button class="upload-invoice">⬆️ رفع الفاتورة</Button>
+
+        
       </div>
-    </section>
-  </template>
+    </div>
+  </section>
+</template>
+
+
+
+
   <style scoped>
+  
   .invoice-actions {
     display: flex;
     flex-direction: column;
